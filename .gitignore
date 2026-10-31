@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# C++ build output
+test
+*.o
+*.out
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
