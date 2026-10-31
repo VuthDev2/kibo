@@ -4,7 +4,7 @@ import platform
 import sys
 
 
-TEAM_NAME = "[YOUR TEAM NAME]"
+TEAM_NAME = "INFINITE"
 
 
 def main():

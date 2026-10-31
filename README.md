@@ -1,36 +1,38 @@
-# 7th Kibo-RPC - Team [YOUR TEAM NAME]
+# 7th Kibo-RPC - Team INFINITE
 
-A starter repository for verifying the development environment and practicing the team's Kibo-RPC workflow.
+Starter repository for Team INFINITE's 7th Kibo-RPC training and development environment checks.
 
 ## Team members
 
 | Name | GitHub | Role |
 |---|---|---|
-| TODO | TODO | TODO |
-| TODO | TODO | TODO |
-| TODO | TODO | TODO |
+| Monyroth Lim | Not provided | Team Lead |
+| Kry Saravuth | Not provided | Software Developer |
+| Sour Chansokpanha (Lavinha San) | Not provided | Software Developer |
+| Puth Poygerry | Not provided | Navigation & Control |
+| Khoun Visal | Not provided | Systems Integration |
+| Preoung Nyudampanha | Not provided | Testing & QA |
 
 ## Contents
 
-- `verify_env.py` — Displays system and Python details to check the environment.
-- `test.cpp` — Confirms that the C++ compiler can build and run a basic program.
-- `watchdog.py` — Simulates battery monitoring across navigation waypoints.
-- `.gitignore` — Excludes generated build files and local editor/OS files.
-- `README.md` — Team information, workflow, and run instructions.
+- `verify_env.py` — Displays the operating system, platform, architecture, and Python version.
+- `test.cpp` — Checks that a C++ compiler can build and run a basic program.
+- `watchdog.py` — Demonstrates battery monitoring in a simulated 10-waypoint navigation run; it does not control a robot.
+- `.gitignore` — Excludes generated build files and local editor and operating-system files.
 
 ## Workflow
 
-Never commit directly to `main`. Create a feature branch for your changes:
+Do not commit directly to `main`. Create a feature branch for each change:
 
 ```bash
-git checkout -b feature/<name>
+git checkout -b feature/<short-description>
 ```
 
-Push your branch and open a Pull Request for review before merging.
+Commit your changes on that branch, push it to GitHub, and open a Pull Request for team review before merging.
 
 ## How to run
 
-From the repository directory, run the Python programs and compile/run the C++ program:
+Requirements: Python 3 and `g++`. From the repository directory, run:
 
 ```bash
 python3 verify_env.py
@@ -38,3 +40,5 @@ python3 watchdog.py
 g++ test.cpp -o test
 ./test
 ```
+
+The watchdog output varies between runs because battery loss is randomized.
