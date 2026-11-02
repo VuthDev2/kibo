@@ -6,7 +6,7 @@ Starter repository for Team INFINITE's 7th Kibo-RPC training and development env
 
 | Name | GitHub | Role |
 |---|---|---|
-| Monyroth Lim | Not provided | Team Lead |
+| Chanmonyroth Lim | Not provided | Team Lead |
 | Kry Saravuth | Not provided | Software Developer |
 | Sour Chansokpanha (Lavinha San) | Not provided | Software Developer |
 | Puth Poygerry | Not provided | Navigation & Control |
